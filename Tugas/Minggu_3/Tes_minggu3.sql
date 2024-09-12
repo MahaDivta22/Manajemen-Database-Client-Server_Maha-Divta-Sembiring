@@ -10,7 +10,9 @@ INNER JOIN
 	tb_reservasi_hotel 
 ON 
 	tb_pelanggan.pelanggan_id = tb_reservasi_hotel.pelanggan_id
-INNER JOIN tb_kamar 
-	ON tb_kamar.kamar_id = tb_reservasi_hotel.kamar_id
+INNER JOIN 
+    tb_kamar 
+ON 
+    tb_kamar.kamar_id = tb_reservasi_hotel.kamar_id
 WHERE 
 	tb_pelanggan.nama = "Gita Surya";
